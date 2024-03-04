@@ -1,0 +1,89 @@
+.videoo {
+  height: 100%;
+  background-color: rgb(12, 12, 12);
+  position: relative;
+  margin-top: -4vh;
+}
+
+.vd {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+@media (max-width: 900px) {
+  .videoo {
+    /* height: 400vh;
+position: relative; */
+  }
+
+  .vd {
+    /* display: none; */
+  }
+  /* .vd2{
+       opacity: 1;
+    } */
+}
+
+.bton {
+  height: 6vh;
+  width: 20vh;
+  background-color: rgb(80, 255, 197);
+  border-radius: 2vh;
+  color: black;
+
+  box-shadow: 0 0 10px #3498db inset, 0 0 10px 4px #3498db;
+}
+
+.bton:hover {
+  background-color: bisque;
+  outline: 0;
+  box-shadow: 0 0 10px #ffee5a inset, 0 0 10px 4px #fffc5a;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+
+  top: 80%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.mind {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.dia {
+  position: absolute;
+  margin-top: 20vh;
+  /* left: 60vh;  */
+  font-size: 7vh;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+.btonn {
+  height: 6vh;
+  width: 20vh;
+  background-color: rgb(255, 179, 65);
+  border-radius: 2vh;
+  color: black;
+  box-shadow: 0 0 10px #f7ff5a inset, 0 0 10px 4px #d3db34;
+}
+
+.btonn:hover {
+  background-color: bisque;
+  outline: 0;
+
+  box-shadow: 0 0 10px #ffffff inset, 0 0 10px 4px #ffffff;
+}
+
+.footer {
+  background-color: black;
+  height: auto;
+  width: 100%;
+}
