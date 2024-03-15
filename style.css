@@ -611,6 +611,7 @@ body {
   font-size: 8vmin;
   font-family: var(--font-heading);
   width: 100%;
+  padding-left: 2px;
 }
 .main-navigation li {
   --border-size: 1vmin;
