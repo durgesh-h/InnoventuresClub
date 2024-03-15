@@ -294,7 +294,7 @@ footer.svelte-1l0w0ad {
   scroll-padding-top: 75px;
   background-color: var(--bg-primary);
   color: var(--secondary);
-  z-index: 8;
+  z-index: 0;
   bottom: 0;
   width: 100%;
 }
