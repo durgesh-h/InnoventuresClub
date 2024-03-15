@@ -7,7 +7,7 @@
 
 .back.svelte-1w6uobc.svelte-1w6uobc {
   background-image: url(map2.png);
-  height: 100vh;
+  height: 150vh;
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -17,13 +17,13 @@
 .parent.svelte-1w6uobc.svelte-1w6uobc {
   scroll-snap-align: start;
   scroll-margin-top: 75px;
-  margin-top: 75px;
+  margin-top: ;
   display: flex;
   object-fit: cover;
   border-radius: 12px;
   margin-left: 10px;
   margin-right: 10px;
-
+  
   border-width: 3px;
   border-style: solid;
   border-image: linear-gradient(
@@ -64,21 +64,29 @@ iframe.svelte-1w6uobc.svelte-1w6uobc {
 @media (min-width: 800px) {
   .parent.svelte-1w6uobc.svelte-1w6uobc {
     margin: 90px;
+
   }
+
 }
 
 @media (max-width: 800px) {
   .back.svelte-1w6uobc.svelte-1w6uobc {
-    height: 170vh;
+    height: 1200px;
   }
 
   .parent.svelte-1w6uobc.svelte-1w6uobc {
     flex-direction: column;
+    height: auto;
+  
   }
 
   iframe.svelte-1w6uobc.svelte-1w6uobc {
     width: 90%;
     margin: 5%;
+  }
+
+  h2.svelte-1w6uobc.svelte-1w6uobc{
+    font-size: 1.2rem;
   }
 }
 
@@ -86,9 +94,11 @@ iframe.svelte-1w6uobc.svelte-1w6uobc {
   padding: 15px;
   scroll-snap-align: start;
   scroll-margin-top: 75px;
+  
 }
 
 ul.svelte-1w6uobc.svelte-1w6uobc {
   list-style: none;
   padding: 0;
 }
+
