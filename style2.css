@@ -183,13 +183,7 @@ html {
   transform: translate(-50%, -50%);
 }
 
-.content {
-  position: relative;
-  z-index: 0;
-  /* background-color: rgba(255, 255, 255, 0.8); Semi-transparent or any color */
-  /* Ensure there's enough content to scroll */
-  min-height: 120vh; /* Example height to enable scrolling */
-}
+
 
 .section.svelte-ptfgty {
   position: relative;
@@ -279,7 +273,7 @@ html {
   font-size: 1.7rem;
 }
 /* needed */
-.btn.svelte-ptfgty {
+/* .btn.svelte-ptfgty {
   position: absolute;
   bottom: 10%;
   z-index: 0;
@@ -319,7 +313,7 @@ html {
 
 .third.svelte-ptfgty:hover {
   box-shadow: 0 0 10px #3498db inset, 0 0 10px 4px #3498db;
-}
+} */
 
 .lost2.svelte-ptfgty {
   top: -10%;
@@ -436,31 +430,52 @@ html {
   }
 }
 
-.chotalogo {
-  width: 188px;
-  margin-top: -290px;
-  position: absolute;
-  margin-left: 1.8vh;
-  background-color: rgba(255, 187, 40, 0.37);
-  border-radius: 20%;
-  border-style: groove;
-  border-color: black;
+
+
+/* Center the content both horizontally and vertically */
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set height to 100% of viewport height */
 }
 
-.chotalogo:hover {
-  background-color: #3498dba3;
-}
+/* Ensure the image and button are inline-block elements */
 .center {
-  margin: 0;
-  position: absolute;
-
-  top: 70%;
-  left: 43.5%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  text-align: center;
+  flex-direction: column; /* Change flex direction to column */
 }
-@media (max-width: 900px) {
-  .center {
-    left: 25%;
+
+/* Optional: Adjustments for the image and button */
+.chotalogo {
+  width: 200px; /* Adjust width as needed */
+  height: auto;
+  background-color: #11ff194e;
+  border-radius: 20%;
+  margin-bottom: 20px; /* Add space between the logo and the button */
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none; /* Remove underlines for the anchor tag inside the button */
+}
+
+/* Media Queries for Responsiveness */
+
+/* For smaller devices, adjust size and spacing */
+@media only screen and (max-width: 480px) {
+  .chotalogo {
+    width: 150px; /* Adjust width for smaller screens */
+  }
+
+  .btn {
+    font-size: 0.8rem; /* Decrease font size for smaller screens */
+    padding: 8px 16px; /* Decrease padding for smaller screens */
   }
 }
