@@ -608,7 +608,7 @@ body {
   z-index: -2;
 }
 .main-navigation ul {
-  font-size: 12vmin;
+  font-size: 8vmin;
   font-family: var(--font-heading);
   width: 100%;
 }
