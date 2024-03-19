@@ -450,7 +450,7 @@ html {
 .chotalogo {
   width: 200px; /* Adjust width as needed */
   height: auto;
-  background-color: #11ff194e;
+  background-color: #007f9cb5;
   border-radius: 20%;
   margin-bottom: 20px; /* Add space between the logo and the button */
 }
@@ -458,7 +458,7 @@ html {
 .btn {
   padding: 10px 20px;
   font-size: 1rem;
-  background-color: #4CAF50;
+  background-color: #007f9c;
   color: white;
   border: none;
   border-radius: 5px;
